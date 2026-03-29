@@ -1,73 +1,81 @@
 # Git & GitHub Engineering Best Practices
 
+## Overview / Visão geral
+
+**English**
 This repository contains a practical guide to Git and GitHub used in real engineering environments.
+The goal is to help developers, data engineers, and analysts understand not just commands, but professional workflows used in production teams.
 
-The goal is to help developers, data engineers and analysts understand not just commands, but professional workflows used in production teams.
+**Português**
+Este repositório contém um guia prático de Git e GitHub usado em ambientes de engenharia reais.
+O objetivo é ajudar desenvolvedores, engenheiros de dados e analistas a entender não apenas comandos, mas fluxos de trabalho profissionais usados em equipes de produção.
 
-## Topics covered
+## Topics covered / Tópicos abordados
 
-- Git fundamentals
-- Branching strategies
-- Pull Requests
-- Code Review
+- Git fundamentals / Fundamentos do Git
+- Branching strategies / Estratégias de branching
+- Pull Requests / Pull Requests
+- Code Review / Revisão de código
 - Gitflow vs Trunk Based
-- Versioning Data Pipelines
-- dbt project versioning
-- Conflict resolution
-- Engineering best practices
+- Versioning Data Pipelines / Versionamento de pipelines de dados
+- dbt project versioning / Versionamento de projetos dbt
+- Conflict resolution / Resolução de conflitos
+- Engineering best practices / Boas práticas de engenharia
 
-## Who is this for?
+## Who is this for? / Para quem é?
 
-- Data Engineers
-- Software Engineers
-- Analytics Engineers
-- Students preparing for tech interviews
+- Data Engineers / Engenheiros de Dados
+- Software Engineers / Engenheiros de Software
+- Analytics Engineers / Engenheiros de Analytics
+- Students preparing for tech interviews / Estudantes se preparando para entrevistas técnicas
 
-## Why this repository exists
+## Why this repository exists / Por que este repositório existe
 
 Many tutorials teach Git commands.
-
 Few teach how engineering teams actually use Git in production.
-
 This repo focuses on practical usage.
 
-## Author
+Muitos tutoriais ensinam comandos do Git.
+Poucos ensinam como equipes de engenharia realmente usam Git em produção.
+Este repositório foca no uso prático.
+
+## Author / Autor
 
 Thiago Camargo  
 Senior Data Engineer | AI Engineer | Data Platforms | AWS | Databricks | Spark
 
-## Contributions
+## Contributions / Contribuições
 
 Feel free to open pull requests or suggestions.
+Sinta-se à vontade para abrir pull requests ou sugestões.
 
 ---
 
-Bem-vindo! Este material é uma apostila básica para você aprender a usar Git e GitHub no projeto `Thiagodev`.
+## How to use this repository / Como usar este repositório
 
-## Objetivo
+1. Start with the fundamentals in [01-git-fundamentals/README.md](git-github-engineering-best-practices/01-git-fundamentals/README.md).
+2. After fundamentals, read [02-branching-strategies/README.md](02-branching-strategies/README.md).
+3. Continue with [03-collaboration/README.md](03-collaboration/README.md).
+4. Learn real-world workflows in [04-real-world-workflows/README.md](04-real-world-workflows/README.md).
+5. Review engineering best practices in [05-best-practices/README.md](05-best-practices/README.md).
+6. Use [cheatsheet/README.md](cheatsheet/README.md) as a quick reference.
+7. Use [APOSTILA.md](APOSTILA.md) if you want additional study material.
 
-Neste conteúdo você vai aprender:
+1. Comece pelos fundamentos em [01-git-fundamentals/README.md](git-github-engineering-best-practices/01-git-fundamentals/README.md).
+2. Depois dos fundamentos, leia [02-branching-strategies/README.md](02-branching-strategies/README.md).
+3. Continue com [03-collaboration/README.md](03-collaboration/README.md).
+4. Aprenda fluxos de trabalho do mundo real em [04-real-world-workflows/README.md](04-real-world-workflows/README.md).
+5. Revise as melhores práticas de engenharia em [05-best-practices/README.md](05-best-practices/README.md).
+6. Use [cheatsheet/README.md](cheatsheet/README.md) como referência rápida.
+7. Use [APOSTILA.md](APOSTILA.md) se quiser material de estudo adicional.
 
-- O que é Git e por que usar versionamento de código
-- Como criar e gerenciar um repositório local
-- Como conectar seu repositório ao GitHub
-- Como registrar mudanças com commits
-- Como enviar seu código para o GitHub
+## Como navegar pelos materiais / How to navigate the materials
 
-## Estrutura do projeto
-
-- `main.py`: arquivo principal do projeto.
-- `README.md`: documentação e tutorial.
-- `APOSTILA.md`: material didático para estudar Git e GitHub.
-- `.gitignore`: arquivos que não devem ser enviados ao repositório.
-
-## Como navegar pelos materiais
-
-- [Guia de engenharia Git/GitHub](git-github-engineering-best-practices/README.md)
-- [Git Init](git-github-engineering-best-practices/01-git-fundamentals/git-init.md)
-- [Git Clone](git-github-engineering-best-practices/01-git-fundamentals/git-clone.md)
-- [Git Add e Commit](git-github-engineering-best-practices/01-git-fundamentals/git-add-commit.md)
-- [Guia Git Fundamentals](git-github-engineering-best-practices/01-git-fundamentals/README.md)
+- [Guia de engenharia Git/GitHub](git-github-engineering-best-practices/README.md) / [Git/GitHub engineering guide](git-github-engineering-best-practices/README.md)
+- [Git Init](git-github-engineering-best-practices/01-git-fundamentals/git-init.md) / [Git Init](git-github-engineering-best-practices/01-git-fundamentals/git-init.md)
+- [Git Clone](git-github-engineering-best-practices/01-git-fundamentals/git-clone.md) / [Git Clone](git-github-engineering-best-practices/01-git-fundamentals/git-clone.md)
+- [Git Add e Commit](git-github-engineering-best-practices/01-git-fundamentals/git-add-commit.md) / [Git Add and Commit](git-github-engineering-best-practices/01-git-fundamentals/git-add-commit.md)
+- [Guia Git Fundamentals](git-github-engineering-best-practices/01-git-fundamentals/README.md) / [Git Fundamentals Guide](git-github-engineering-best-practices/01-git-fundamentals/README.md)
 
 ## 1. O que é Git?
 
