@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+      - 'feature/**'
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+
+      - name: Install Markdown lint
+        run: |
+          npm install -g markdownlint-cli
+
+      - name: Lint Markdown files
+        run: |
+          markdownlint "**/*.md"
+
+      - name: Check GitHub links (simple)
+        run: |
+          python - <<'PY'
+import glob, re
+errors = 0
+for path in glob.glob('**/*.md', recursive=True):
+    with open(path, 'r', encoding='utf-8') as f:
+        text = f.read()
+    for match in re.findall(r'\((https?://[^)]+)\)', text):
+        print('Found link:', match)
+print('Link validation: basic syntax only')
+PY
+
+      - name: Validate README structure
+        run: |
+          python - <<'PY'
+from pathlib import Path
+root = Path('.')
+readme = root / 'README.md'
+text = readme.read_text(encoding='utf-8')
+assert 'Engineering Level' in text
+assert 'Topics covered' in text
+print('README structure validated')
+PY

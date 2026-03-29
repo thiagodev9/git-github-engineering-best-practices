@@ -21,6 +21,8 @@ O objetivo é ajudar desenvolvedores, engenheiros de dados e analistas a entende
 - dbt project versioning / Versionamento de projetos dbt
 - Conflict resolution / Resolução de conflitos
 - Engineering decisions / Decisões de engenharia
+- Decision records / Registros de decisão
+- Engineering metrics / Métricas de engenharia
 - CI/CD / GitHub Actions
 - Engineering best practices / Boas práticas de engenharia
 
@@ -99,9 +101,12 @@ Add these topics in the repository settings under About → Topics:
 - [Git Add e Commit](git-github-engineering-best-practices/01-git-fundamentals/git-add-commit.md) / [Git Add and Commit](git-github-engineering-best-practices/01-git-fundamentals/git-add-commit.md)
 - [Guia Git Fundamentals](git-github-engineering-best-practices/01-git-fundamentals/README.md) / [Git Fundamentals Guide](git-github-engineering-best-practices/01-git-fundamentals/README.md)
 - [Engineering Decisions](05-best-practices/engineering-decisions.md)
+- [Decision Records](decision-records/README.md)
+- [Engineering Metrics](engineering-metrics.md)
 - [Code Review Guide](03-collaboration/code-review-guide.md)
 - [Team Simulation](04-real-world-workflows/team-simulation.md)
 - [GitHub Actions example workflow](.github/workflows/git-check.yml)
+- [GitHub Actions CI example](.github/workflows/ci.yml)
 
 ## 1. O que é Git?
 
