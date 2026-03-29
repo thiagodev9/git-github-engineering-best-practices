@@ -1,4 +1,46 @@
-# Apostila: Introdução ao Git e GitHub
+# Git & GitHub Engineering Best Practices
+
+This repository contains a practical guide to Git and GitHub used in real engineering environments.
+
+The goal is to help developers, data engineers and analysts understand not just commands, but professional workflows used in production teams.
+
+## Topics covered
+
+- Git fundamentals
+- Branching strategies
+- Pull Requests
+- Code Review
+- Gitflow vs Trunk Based
+- Versioning Data Pipelines
+- dbt project versioning
+- Conflict resolution
+- Engineering best practices
+
+## Who is this for?
+
+- Data Engineers
+- Software Engineers
+- Analytics Engineers
+- Students preparing for tech interviews
+
+## Why this repository exists
+
+Many tutorials teach Git commands.
+
+Few teach how engineering teams actually use Git in production.
+
+This repo focuses on practical usage.
+
+## Author
+
+Thiago Camargo  
+Senior Data Engineer | AI Engineer | Data Platforms | AWS | Databricks | Spark
+
+## Contributions
+
+Feel free to open pull requests or suggestions.
+
+---
 
 Bem-vindo! Este material é uma apostila básica para você aprender a usar Git e GitHub no projeto `Thiagodev`.
 
@@ -25,6 +67,7 @@ Neste conteúdo você vai aprender:
 - [Git Init](git-github-engineering-best-practices/01-git-fundamentals/git-init.md)
 - [Git Clone](git-github-engineering-best-practices/01-git-fundamentals/git-clone.md)
 - [Git Add e Commit](git-github-engineering-best-practices/01-git-fundamentals/git-add-commit.md)
+- [Guia Git Fundamentals](git-github-engineering-best-practices/01-git-fundamentals/README.md)
 
 ## 1. O que é Git?
 
