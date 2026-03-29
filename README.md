@@ -20,7 +20,18 @@ O objetivo é ajudar desenvolvedores, engenheiros de dados e analistas a entende
 - Versioning Data Pipelines / Versionamento de pipelines de dados
 - dbt project versioning / Versionamento de projetos dbt
 - Conflict resolution / Resolução de conflitos
+- Engineering decisions / Decisões de engenharia
+- CI/CD / GitHub Actions
 - Engineering best practices / Boas práticas de engenharia
+
+## Engineering Level / Nível de Engenharia
+
+- Beginner → Commands / Iniciante → Comandos
+- Intermediate → Workflow / Intermediário → Fluxo de trabalho
+- Advanced → Engineering practices / Avançado → Práticas de engenharia
+
+This repository focuses on Advanced engineering usage.
+Este repositório foca no uso avançado de engenharia.
 
 ## Who is this for? / Para quem é?
 
@@ -49,6 +60,17 @@ Senior Data Engineer | AI Engineer | Data Platforms | AWS | Databricks | Spark
 Feel free to open pull requests or suggestions.
 Sinta-se à vontade para abrir pull requests ou sugestões.
 
+## GitHub Topics / Tópicos do GitHub
+
+Add these topics in the repository settings under About → Topics:
+
+- git
+- github
+- data-engineering
+- engineering
+- best-practices
+- devops
+
 ---
 
 ## How to use this repository / Como usar este repositório
@@ -76,6 +98,10 @@ Sinta-se à vontade para abrir pull requests ou sugestões.
 - [Git Clone](git-github-engineering-best-practices/01-git-fundamentals/git-clone.md) / [Git Clone](git-github-engineering-best-practices/01-git-fundamentals/git-clone.md)
 - [Git Add e Commit](git-github-engineering-best-practices/01-git-fundamentals/git-add-commit.md) / [Git Add and Commit](git-github-engineering-best-practices/01-git-fundamentals/git-add-commit.md)
 - [Guia Git Fundamentals](git-github-engineering-best-practices/01-git-fundamentals/README.md) / [Git Fundamentals Guide](git-github-engineering-best-practices/01-git-fundamentals/README.md)
+- [Engineering Decisions](05-best-practices/engineering-decisions.md)
+- [Code Review Guide](03-collaboration/code-review-guide.md)
+- [Team Simulation](04-real-world-workflows/team-simulation.md)
+- [GitHub Actions example workflow](.github/workflows/git-check.yml)
 
 ## 1. O que é Git?
 

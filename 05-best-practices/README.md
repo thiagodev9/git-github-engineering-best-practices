@@ -10,3 +10,4 @@ Files / Arquivos:
 - [commit-patterns.md](commit-patterns.md)
 - [repo-structure.md](repo-structure.md)
 - [naming-conventions.md](naming-conventions.md)
+- [engineering-decisions.md](engineering-decisions.md)

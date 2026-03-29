@@ -10,3 +10,4 @@ Files / Arquivos:
 - [etl-versioning.md](etl-versioning.md)
 - [dbt-versioning.md](dbt-versioning.md)
 - [data-pipelines.md](data-pipelines.md)
+- [team-simulation.md](team-simulation.md)

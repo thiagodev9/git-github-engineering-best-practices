@@ -1,0 +1,43 @@
+name: Git Check
+
+on:
+  push:
+    branches:
+      - main
+      - 'feature/**'
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  checks:
+    name: Run CI checks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install lint dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pylint
+
+      - name: Lint Python files
+        run: |
+          python -m pylint main.py --disable=C0114,C0115,C0116
+
+      - name: Run syntax check
+        run: |
+          python -m py_compile main.py
+
+      - name: Check commit message style
+        run: |
+          MESSAGE=$(git log -1 --pretty=format:'%s')
+          echo "Commit message: $MESSAGE"
+          echo "$MESSAGE" | grep -E '^(feat|fix|docs|chore|refactor|test|ci):' || true

@@ -10,3 +10,4 @@ Files / Arquivos:
 - [pull-requests.md](pull-requests.md)
 - [code-review.md](code-review.md)
 - [conflict-resolution.md](conflict-resolution.md)
+- [code-review-guide.md](code-review-guide.md)
